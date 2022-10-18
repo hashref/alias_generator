@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+email-validator = "*"
+
+[dev-packages]
+black = "*"
+mypy = "*"
+flake8 = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+genalias = "python alias_generator/alias_generator.py"
